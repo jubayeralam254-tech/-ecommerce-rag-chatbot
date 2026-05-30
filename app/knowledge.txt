@@ -1,0 +1,39 @@
+Product: Blue Denim Jacket
+Price: $49.99
+Sizes: S, M, L, XL
+Description: Classic blue denim jacket with button closure. Machine washable.
+
+Product: White Sneakers
+Price: $35.00
+Sizes: 7, 8, 9, 10, 11
+Description: Lightweight white sneakers with rubber sole. Good for daily use.
+
+Product: Black Graphic T-Shirt
+Price: $19.99
+Sizes: S, M, L, XL, XXL
+Description: 100% cotton crew neck t-shirt with a vintage graphic print. Soft and comfortable.
+
+Product: Winter Beanie Hat
+Price: $14.50
+Sizes: One Size
+Description: Knitted wool beanie available in dark grey. Keeps you warm during extreme cold.
+
+Product: Men's Leather Wallet
+Price: $25.00
+Sizes: One Size
+Description: Genuine brown leather bi-fold wallet with 6 card slots and RFID blocking capability.
+
+Product: Eco-Friendly Yoga Mat
+Price: $22.00
+Sizes: Standard (72" x 24")
+Description: Non-slip, 6mm thick yoga mat made from recycled materials. Includes carrying strap.
+
+Product: Stainless Steel Water Bottle
+Price: $18.99
+Sizes: 500ml, 750ml, 1L
+Description: Double-wall vacuum insulated water bottle. Keeps drinks cold for 24 hours or hot for 12 hours.
+
+Product: Wireless Bluetooth Earbuds
+Price: $59.99
+Sizes: One Size
+Description: Bluetooth 5.0 wireless earbuds with active noise cancellation and a compact charging case.

@@ -1,25 +1,24 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 
-class BusinessResponse(BaseModel):
-    id: int
-    name: str
-    address: str
-    phone: str
-    rating: float | None
-    category: str
-    city: str
-
-    class Config:
-        from_attributes = True
+class AskRequest(BaseModel):
+    question: str = Field(..., min_length=1, description="User question")
+    top_k: int = Field(default=4, ge=1, le=10, description="Number of chunks to retrieve")
 
 
-class ScrapeRequest(BaseModel):
-    city: str
-    category: str
+class AskResponse(BaseModel):
+    answer: str
+    retrieved_context: list[str]
+    sources: list[dict]
 
 
-class ScrapeResponse(BaseModel):
-    scraped_count: int
-    created_count: int
-    skipped_count: int
+class UploadResponse(BaseModel):
+    message: str
+    filename: str
+    stored_path: str
+    chunks_indexed: int
+    collection_name: str
+
+
+class HealthResponse(BaseModel):
+    status: str
