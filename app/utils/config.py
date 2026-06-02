@@ -26,8 +26,8 @@ class Settings:
     google_api_key: str | None = os.getenv("GOOGLE_API_KEY")
     gemini_model: str = os.getenv("GEMINI_MODEL", "models/gemini-2.5-flash")
     embedding_model_name: str = os.getenv(
-        "EMBEDDING_MODEL_NAME", "sentence-transformers/all-MiniLM-L6-v2"
-    )
+    "EMBEDDING_MODEL", "models/embedding-001"  # ← এটা change কর
+)
     chroma_dir: Path = PROJECT_ROOT / os.getenv("CHROMA_DIR", "app/chroma_db")
     upload_dir: Path = PROJECT_ROOT / os.getenv("UPLOAD_DIR", "app/uploads")
     chroma_collection: str = os.getenv("CHROMA_COLLECTION", "pdf_knowledge_base")
